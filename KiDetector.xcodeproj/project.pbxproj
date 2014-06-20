@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822518781953F49100193732 /* scouter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 822518771953F49100193732 /* scouter.wav */; };
 		82D20DDA194FFF0E007B3DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DD9194FFF0E007B3DA4 /* Foundation.framework */; };
 		82D20DDC194FFF0E007B3DA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DDB194FFF0E007B3DA4 /* CoreGraphics.framework */; };
 		82D20DDE194FFF0E007B3DA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DDD194FFF0E007B3DA4 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		82D20DFE194FFF0E007B3DA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DDD194FFF0E007B3DA4 /* UIKit.framework */; };
 		82D20E06194FFF0E007B3DA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82D20E04194FFF0E007B3DA4 /* InfoPlist.strings */; };
 		82D20E08194FFF0E007B3DA4 /* KiDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D20E07194FFF0E007B3DA4 /* KiDetectorTests.m */; };
+		82D20E121950122F007B3DA4 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82D20E111950122F007B3DA4 /* face.jpg */; };
+		82E4B5861950D3B900EE1A45 /* scouter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82E4B5851950D3B900EE1A45 /* scouter.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		822518771953F49100193732 /* scouter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scouter.wav; sourceTree = "<group>"; };
 		82D20DD6194FFF0E007B3DA4 /* KiDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D20DD9194FFF0E007B3DA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82D20DDB194FFF0E007B3DA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +59,8 @@
 		82D20E03194FFF0E007B3DA4 /* KiDetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiDetectorTests-Info.plist"; sourceTree = "<group>"; };
 		82D20E05194FFF0E007B3DA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82D20E07194FFF0E007B3DA4 /* KiDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiDetectorTests.m; sourceTree = "<group>"; };
+		82D20E111950122F007B3DA4 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
+		82E4B5851950D3B900EE1A45 /* scouter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scouter.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 		82D20DDF194FFF0E007B3DA4 /* KiDetector */ = {
 			isa = PBXGroup;
 			children = (
+				822518771953F49100193732 /* scouter.wav */,
+				82E4B5851950D3B900EE1A45 /* scouter.mp3 */,
+				82D20E111950122F007B3DA4 /* face.jpg */,
 				82D20DE8194FFF0E007B3DA4 /* KiAppDelegate.h */,
 				82D20DE9194FFF0E007B3DA4 /* KiAppDelegate.m */,
 				82D20DEB194FFF0E007B3DA4 /* Main_iPhone.storyboard */,
@@ -233,8 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82D20DF0194FFF0E007B3DA4 /* Main_iPad.storyboard in Resources */,
+				82D20E121950122F007B3DA4 /* face.jpg in Resources */,
 				82D20DF5194FFF0E007B3DA4 /* Images.xcassets in Resources */,
 				82D20DED194FFF0E007B3DA4 /* Main_iPhone.storyboard in Resources */,
+				822518781953F49100193732 /* scouter.wav in Resources */,
+				82E4B5861950D3B900EE1A45 /* scouter.mp3 in Resources */,
 				82D20DE4194FFF0E007B3DA4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiDetector/KiDetector-Prefix.pch";
 				INFOPLIST_FILE = "KiDetector/KiDetector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KiDetector/KiDetector-Prefix.pch";
 				INFOPLIST_FILE = "KiDetector/KiDetector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +485,7 @@
 				82D20E0D194FFF0E007B3DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82D20E0E194FFF0E007B3DA4 /* Build configuration list for PBXNativeTarget "KiDetectorTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +494,7 @@
 				82D20E10194FFF0E007B3DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
