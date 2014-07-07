@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		822518781953F49100193732 /* scouter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 822518771953F49100193732 /* scouter.wav */; };
+		8225187B19542A3F00193732 /* KiConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8225187A19542A3F00193732 /* KiConfigViewController.m */; };
 		82D20DDA194FFF0E007B3DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DD9194FFF0E007B3DA4 /* Foundation.framework */; };
 		82D20DDC194FFF0E007B3DA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DDB194FFF0E007B3DA4 /* CoreGraphics.framework */; };
 		82D20DDE194FFF0E007B3DA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D20DDD194FFF0E007B3DA4 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		822518771953F49100193732 /* scouter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scouter.wav; sourceTree = "<group>"; };
+		8225187919542A3F00193732 /* KiConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KiConfigViewController.h; sourceTree = "<group>"; };
+		8225187A19542A3F00193732 /* KiConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiConfigViewController.m; sourceTree = "<group>"; };
 		82D20DD6194FFF0E007B3DA4 /* KiDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D20DD9194FFF0E007B3DA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82D20DDB194FFF0E007B3DA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +134,8 @@
 				82D20DF2194FFF0E007B3DA4 /* KiViewController.m */,
 				82D20DF4194FFF0E007B3DA4 /* Images.xcassets */,
 				82D20DE0194FFF0E007B3DA4 /* Supporting Files */,
+				8225187919542A3F00193732 /* KiConfigViewController.h */,
+				8225187A19542A3F00193732 /* KiConfigViewController.m */,
 			);
 			path = KiDetector;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8225187B19542A3F00193732 /* KiConfigViewController.m in Sources */,
 				82D20DEA194FFF0E007B3DA4 /* KiAppDelegate.m in Sources */,
 				82D20DE6194FFF0E007B3DA4 /* main.m in Sources */,
 				82D20DF3194FFF0E007B3DA4 /* KiViewController.m in Sources */,
@@ -358,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
